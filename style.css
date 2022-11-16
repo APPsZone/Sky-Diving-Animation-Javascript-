@@ -1,0 +1,87 @@
+body {
+  overflow: hidden;
+  margin: 0;
+}
+
+#canvas {
+  position: absolute;
+  overflow: hidden;
+  background: rgb(53, 214, 237);
+  background: linear-gradient(180deg, rgba(53, 214, 237, 1) 0%, rgba(201, 246, 255, 1) 100%);
+}
+
+#airplane {
+  background: url(../images/airplane.png);
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 410px;
+  height: 124px;
+  z-index: 5;
+}
+
+#person-1 {
+  opacity: 0;
+  background: url(../images/person-1.png);
+  position: absolute;
+  top: 66px;
+  right: 130px;
+  width: 117px;
+  height: 79px;
+  transform: scale(0.27, 0.27);
+  z-index: 5;
+}
+
+.cloud1 {
+  background: url(../images/cloud-1.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 548px;
+  height: 121px;
+}
+
+.cloud2 {
+  background: url(../images/cloud-2.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 121px;
+  height: 60px;
+}
+
+.cloud3 {
+  background: url(../images/cloud-3.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 237px;
+  height: 92px;
+}
+
+.cloud4 {
+  background: url(../images/cloud-4.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 413px;
+  height: 77px;
+}
+
+.cloud5 {
+  background: url(../images/cloud-5.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 235px;
+  height: 77px;
+}
+
+.cloud6 {
+  background: url(../images/cloud-6.png);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 194px;
+  height: 91px;
+}
